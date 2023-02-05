@@ -1,0 +1,224 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+ul ,a{
+  display: flex;
+  align-items: center;
+  color: rgb(121, 119, 119);
+  text-decoration: none;
+}
+.navbar #logo{
+  height: 50%;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: 900;
+}
+a:hover{
+  color: rgb(247, 251, 247);
+}
+.cc{
+  background-color: rgb(116, 196, 247);
+}
+.container{
+  padding:50px 0px 0px 50px;
+}
+.container p{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(244, 241, 241);
+  text-align: justify;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container #line{
+  padding: 0%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: blue;
+}
+.container #slide{
+  padding: 0%;
+  padding-bottom: 20px;
+  overflow: hidden;
+  color: red;
+}
+.shssh{
+  background-color: black;
+}
+.show{
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  padding-top: 60px;
+  padding-left: 25%;
+  padding-right: 25%;
+  
+}
+.show li{
+  display: inline;
+  color: rgb(94, 88, 88);
+  font-size: small;
+
+}
+.show a{
+  color: rgb(79, 74, 74);
+  font-size: x-large;
+}
+.show a:hover{
+  color: rgb(69, 221, 223);
+}
+.showmain{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+#tab1{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+table{
+  border: 2px;
+  border-color: rgb(0, 0, 0);
+  border-collapse: collapse;
+  text-align: center;
+  justify-content: center;
+  size: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+#table1,#table2{
+  display: flex;
+  align-content: center;
+}
+#table2 th{
+  padding-left:150px;
+  padding-right: 150px;
+  text-align: center;
+  font-size: x-large
+}
+#table1 th{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: large;
+}
+td{
+  font-style: large;
+}
+#r1{
+  display: flex;
+  justify-content:space-around;
+}
+#r1 #row1 ul{
+  display: inline;
+  justify-content: none;
+}
+#row1 a{
+  font-weight: 1;
+  justify-content: center;
+  color: rgb(77, 72, 72);
+}
+#r1{
+  padding-top: 10%;
+}
+#footer{
+background-color: rgb(236, 235, 231);
+padding-left: 25%;
+padding-right: 25%;
+}
+#r2{
+  padding-top: 90px;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+#r2 p{
+  padding-top: 30px;
+}
+#r3{
+  padding-top: 50px;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+.iconss{
+  align-items: center;
+  padding: 40px;
+}
+.iconss i{
+ color: rgb(93, 195, 236);
+ font-size: x-large;
+ 
+ 
+}
+#iconssss {
+  padding-left: 50%;
+  
+}
+#row1 a:hover{
+  color: rgb(109, 197, 214);
+}
+#para{
+  text-align: justify;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 80px;
+}
+#scro{
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 25%;
+  padding-left: 25%;
+  padding-bottom: 50px;
+}
+#scro h2{
+  color: blue;
+  padding: 20px;
+}
+#scro #scro1{
+  padding-right: 25%;
+}
+.place{
+  display: flex;
+  padding-left: 25%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  align-content: center;
+}
+button{
+  padding: 0px;
+  border-radius: 0px;
+  padding-left: 3px;
+  padding-right:3px;
+  font-weight: 900;
+}
+.slide2{
+  height: 250px;
+  width: 300px;
+}
+.slide2 img{
+  height: 250px;
+  width: 300px;
+}
